@@ -13,11 +13,25 @@ int main() {
 	//printf("O valor de d é: %.2f \n", d);
 	//printf("O valor de c é: %c \n", c);
 
-	int num, soma;
-	printf("\nDigite um número ");
-	scanf("%d",&num);
-	soma = num + 9;
-	printf("O valor da variável digitada é %d e o valor da soma é %d\n", num, soma);
+	//int num, soma;
+	//printf("\nDigite um número ");
+	//scanf("%d",&num);
+	//soma = num + 9;
+	//printf("O valor da variável digitada é %d e o valor da soma é %d\n", num, soma);
+
+	int a;
+	printf("Digite o valor: ");
+	scanf("%d", &a);
+
+	if(a>=0 && a<=8)
+	{
+		printf("A variável está entre 0 e 8 e vale %d", a);
+	}
+	else
+	{
+		printf("A variável a é mario que 8 e vale %d\n", a);
+	}
+	
 	
 	return 0;
 }

@@ -19,17 +19,33 @@ int main() {
 	//soma = num + 9;
 	//printf("O valor da variável digitada é %d e o valor da soma é %d\n", num, soma);
 
-	int a;
-	printf("Digite o valor: ");
-	scanf("%d", &a);
+	//int a;
+	//printf("Digite o valor: ");
+	//scanf("%d", &a);
 
-	if(a>=0 && a<=8)
-	{
-		printf("A variável está entre 0 e 8 e vale %d", a);
+	//if(a>=0 && a<=8)
+	//{
+	//	printf("A variável está entre 0 e 8 e vale %d", a);
+	//}
+	//else
+	//{
+	//	printf("A variável a é maior que 8 e vale %d\n", a);
+	//}
+
+	int a=0;
+
+	printf("\nLaço while\n");
+
+	while(a<5){
+		printf("Variável a é %d\n", a);
+		a++;
 	}
-	else
+
+	printf("\nLaço for\n");
+
+	for(int i=0; i<4; i++)
 	{
-		printf("A variável a é mario que 8 e vale %d\n", a);
+		printf("A variável i é: %d\n", i);
 	}
 	
 	

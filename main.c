@@ -5,12 +5,17 @@
 //double d = 3.8;
 //char c = 't';
 
-int soma(int n1, int n2){
+/*int soma(int n1, int n2){
 	return n1+n2;
 }
 int subtracao(int n1, int n2){
 	return n1-n2;
 }
+*/
+
+int v[4];
+
+float v1[3];
 
 int main() {
 	//printf("O valor de a é: %d \n", a);
@@ -53,7 +58,7 @@ int main() {
 	//	printf("A variável i é: %d\n", i);
 	//}
 
-	int n1, n2, op=1;
+	/*int n1, n2, op=1;
 
 	while(op==1 || op==2){
 
@@ -74,6 +79,22 @@ int main() {
 		printf("Operação não permitida - encerrando o programa");
 	}
 		}
+	*/
+
+	v[0] = 1;
+	v[1] = 56;
+	v[2] = 4;
+	v[3] = 76;
+
+	for(int i=0; i<3;i++){
+		printf("Digite um valor: ");
+		scanf("%f", &v1[i]);
+	}
+
+	for(int i=0; i<3;i++){
+		printf("O valor de v1[%d] = %.2f\n",i, v1[i]);		
+	}
+		
 	
 	return 0;
 }

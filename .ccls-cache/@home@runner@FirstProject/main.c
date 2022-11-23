@@ -13,9 +13,11 @@ int subtracao(int n1, int n2){
 }
 */
 
-int v[4];
+//int v[4];
 
-float v1[3];
+//float v1[3];
+
+int mat[2][2];
 
 int main() {
 	//printf("O valor de a é: %d \n", a);
@@ -81,7 +83,7 @@ int main() {
 		}
 	*/
 
-	v[0] = 1;
+	/*v[0] = 1;
 	v[1] = 56;
 	v[2] = 4;
 	v[3] = 76;
@@ -93,6 +95,20 @@ int main() {
 
 	for(int i=0; i<3;i++){
 		printf("O valor de v1[%d] = %.2f\n",i, v1[i]);		
+	}
+	*/
+
+	for(int i=0;i<2;i++){
+		for(int j=0;j<2;j++){
+			printf("Digite o valor a ser armazenado na posição [%d],[%d]", i, j);
+			scanf("%d",&mat[i][j]);
+		}
+	}
+
+	for(int i=0;i<2;i++){
+		for(int j=0;j<2;j++){
+			printf("O valor na posição [%d],[%d] é %d\n", i, j, mat[i][j]);			
+		}
 	}
 		
 	
